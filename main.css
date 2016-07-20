@@ -18,14 +18,12 @@ body {
 	100% { transform: translateY(0) scale(1, 1); }
 }
 
-
 /*
   ========================================
   Sword
   ========================================
 */
 .sword {
-	margin: 50px auto;
 	width: 20em;
 	height: 20em;
 	position: relative;
@@ -137,4 +135,99 @@ body {
 				8em 1em #372910,
 				7em 2em #372910,
 				6em 3em #372910;
+}
+
+/*
+  ========================================
+  Axe
+  ========================================
+*/
+.axe {
+	width: 20em;
+	height: 20em;
+	position: relative;
+	animation: flying 2s infinite;
+	animation-timing-function: ease;
+
+	/* Size
+	---------------------------------------------- */
+	font-size: 15px;
+}
+.axe:before {
+	content: '';
+	position: absolute;
+	top: 22em;
+	left: 0;
+	width: 20em;
+	height: 2em;
+	animation: shadow 2s infinite;
+	background: radial-gradient(rgba(0,0,0,.2), #ecf0f1 25%);	
+}
+.axe:after {
+	content: '';
+	position: absolute;
+	top: 8em;
+	left: 8em;
+	background: #342A14;
+	height: 1em;
+	width: 1em;
+	box-shadow: 0 -1em #342A14,
+				1em -2em #342A14,
+				2em -3em #342A14,
+				3em -4em #342A14,
+				4em -4em #342A14,
+				5em -3em #342A14,
+				5em -2em #342A14,
+				1em 1em #342A14,
+				2em 1em #342A14,
+				7em 1em #342A14,
+				7em 2em #342A14,
+				6em 3em #342A14,
+				5em 3em #342A14,
+				5em -1em #4C3214,
+				3em 1em #4C3214,
+				2em 2em #4C3214,
+				1em 3em #4C3214,
+				0 4em #4C3214,
+				-1em 5em #4C3214,
+				-2em 6em #4C3214,
+				-3em 7em #4C3214,
+				-4em 8em #4C3214,
+				6em 0 #2C1A0C,
+				4em 2em #2C1A0C,
+				3em 3em #2C1A0C,
+				2em 4em #2C1A0C,
+				1em 5em #2C1A0C,
+				0 6em #2C1A0C,
+				-1em 7em #2C1A0C,
+				-2em 8em #2C1A0C,
+				-3em 9em #2C1A0C,
+				6em -1em #6C4A1C,
+				6em 1em #6C4A1C,
+				6em 2em #6C4A1C,
+				5em 2em #6C4A1C,
+				5em 0 #6C4A1C,
+				4em 1em #6C4A1C,
+				3em 2em #6C4A1C,
+				1em 4em #6C4A1C,
+				0 5em #6C4A1C,
+				-2em 7em #6C4A1C,
+				-4em 9em #6C4A1C,
+				3em -2em #6C4A1C,
+				2em -1em #6C4A1C,
+				3em -1em #6C4A1C,
+				4em -1em #6C4A1C,
+				3em 0 #6C4A1C,
+				4em 0 #5C421C,
+				5em 1em #5C421C,
+				2em 0 #745A24,
+				4em -2em #745A24,
+				1em 0 #8C6224,
+				1em -1em #8C6224,
+				2em -2em #8C6224,
+				3em -3em #8C6224,
+				4em -3em #8C6224,
+				2em 3em #8C6224,
+				-1em 6em #8C6224,
+				-3em 8em #8C6224;	
 }
