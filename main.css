@@ -6,11 +6,31 @@
 
   ========================================
 */
+
+/*
+  ========================================
+  Animation
+  ========================================
+*/
+@keyframes flying {
+	0% { transform: translateY(0); }
+	50% { transform: translateY(5%); }
+	100% { transform: translateY(0); }
+}
+
+
+/*
+  ========================================
+  Sword
+  ========================================
+*/
 .sword {
 	margin: 50px auto;
 	width: 20em;
 	height: 20em;
 	position: relative;
+	animation: flying 2s infinite;
+	animation-timing-function: ease;
 
 	/* Size
 	---------------------------------------------- */
