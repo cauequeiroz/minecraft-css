@@ -6,4 +6,105 @@
 
   ========================================
 */
-body { background: black;  }
+.sword {
+	margin: 50px auto;
+	width: 20em;
+	height: 20em;
+	position: relative;
+
+	/* Size
+	---------------------------------------------- */
+	font-size: 15px;
+}
+.sword:after {
+			content: '';
+			position: absolute;
+			top: 8em;
+			left: 4em;
+			background: #2B200C;
+			height: 1em;
+			width: 1em;
+			box-shadow: 1em 0 #2B200C,
+						0 1em #2B200C,
+						1em 1em #473614,
+						2em 1em #2B200C,
+						2em 2em #594319,
+						2em 3em #594319,
+						1em 2em #2B200C,
+						1em 3em #2B200C,
+						3em 2em #2B200C,
+						3em 3em #2B200C,
+						2em 4em #2B200C,
+						3em 4em #594319,
+						3em 5em #2B200C,
+						4em 6em #2B200C,
+						5em 6em #2B200C,
+						6em 7em #2B200C,
+						7em 7em #2B200C,
+						7em 6em #2B200C,
+						6em 5em #2B200C,
+						5em 4em #2B200C,
+						4em 4em #2B200C,
+						4em 5em #594319,
+						5em 5em #473614,
+						6em 6em #473614,
+						2em 6em #2B200C,
+						1em 7em #2B200C,
+						0 8em #2B200C,
+						0 9em #2B200C,
+						-1em 9em #2B200C,
+						-2em 9em #2B200C,
+						-2em 8em #2B200C,
+						-2em 7em #2B200C,
+						-1em 7em #2B200C,
+						0 6em #493615,
+						1em 5em #493615,
+						1em 6em #896727,
+						2em 5em #684E1E,
+						0 7em #684E1E,
+						-1em 8em #594319,
+						4em 3em #755821,
+						5em 2em #755821,
+						6em 1em #755821,
+						7em 0 #755821,
+						8em -1em #755821,
+						9em -2em #755821,
+						10em -3em #755821,
+						11em -4em #755821,
+						12em -5em #755821,
+						4em 2em #866526,
+						5em 1em #866526,
+						6em 0 #866526,
+						7em -1em #866526,
+						8em -2em #866526,
+						9em -3em #866526,
+						10em -4em #866526,
+						11em -5em #866526,
+						5em 3em #866526,
+						6em 2em #866526,
+						7em 1em #866526,
+						8em 0 #866526,
+						9em -1em #866526,
+						10em -2em #866526,
+						11em -3em #866526,
+						12em -4em #866526,
+						4em 1em #372910,
+						5em 0 #372910,
+						6em -1em #372910,
+						7em -2em #372910,
+						8em -3em #372910,
+						9em -4em #372910,
+						10em -5em #372910,
+						11em -6em #372910,
+						12em -6em #372910,
+						13em -6em #372910,
+						13em -5em #372910,
+						13em -4em #372910,
+						12em -3em #372910,
+						11em -2em #372910,
+						10em -1em #372910,
+						9em 0 #372910,
+						8em 1em #372910,
+						7em 2em #372910,
+						6em 3em #372910;
+		}
