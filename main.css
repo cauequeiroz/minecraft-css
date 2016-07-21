@@ -30,12 +30,18 @@ body { background: #ecf0f1; text-align: center; }
 	animation: shadow 2s infinite;
 	background: radial-gradient(rgba(0,0,0,.2), #ecf0f1 25%);
 }
+.item:after {
+	content: '';
+	position: absolute;
+	height: 1em;
+	width: 1em;
+}
 
 /*
   ========================================
   Animation
   ========================================
-*/
+
 @keyframes flying {
 	0% { transform: translateY(0); }
 	50% { transform: translateY(5%); }
@@ -46,20 +52,16 @@ body { background: #ecf0f1; text-align: center; }
 	50% { transform: translateY(-50%) scale(1.8, 1); }
 	100% { transform: translateY(0) scale(1, 1); }
 }
-
+*/
 /*
   ========================================
   Sword
   ========================================
 */
-.sword:after {
-	content: '';
-	position: absolute;
+.sword:after {	
 	top: 8em;
 	left: 4em;
-	background: #2B200C;
-	height: 1em;
-	width: 1em;
+	background: #2B200C;	
 	box-shadow: 1em 0 #2B200C,
 				0 1em #2B200C,
 				1em 1em #473614,
@@ -151,13 +153,9 @@ body { background: #ecf0f1; text-align: center; }
   ========================================
 */
 .axe:after {
-	content: '';
-	position: absolute;
 	top: 8em;
 	left: 8em;
 	background: #342A14;
-	height: 1em;
-	width: 1em;
 	box-shadow: 0 -1em #342A14,
 				1em -2em #342A14,
 				2em -3em #342A14,
