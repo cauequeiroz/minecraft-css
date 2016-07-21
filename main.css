@@ -1,4 +1,4 @@
-body { background: #ecf0f1; text-align: center; }
+body { background: #ecf0f1; text-align: center; padding-top: 50px; }
 
 /*
   ========================================
@@ -41,7 +41,7 @@ body { background: #ecf0f1; text-align: center; }
   ========================================
   Animation
   ========================================
-
+*/
 @keyframes flying {
 	0% { transform: translateY(0); }
 	50% { transform: translateY(5%); }
@@ -52,7 +52,7 @@ body { background: #ecf0f1; text-align: center; }
 	50% { transform: translateY(-50%) scale(1.8, 1); }
 	100% { transform: translateY(0) scale(1, 1); }
 }
-*/
+
 /*
   ========================================
   Sword
@@ -215,4 +215,82 @@ body { background: #ecf0f1; text-align: center; }
 				2em 3em #8C6224,
 				-1em 6em #8C6224,
 				-3em 8em #8C6224;	
+}
+
+/*
+  ========================================
+  Pickaxe
+  ========================================
+*/
+.pickaxe:after {
+	top: 6em;
+	left: 6.5em;
+	background: #342A14;
+	box-shadow: 1em -1em #342A14,
+				2em -1em #342A14,
+				3em -1em #342A14,
+				4em -1em #342A14,
+				5em -1em #342A14,
+				6em 0 #342A14,
+				1em 1em #342A14,
+				2em 1em #342A14,
+				3em 1em #342A14,
+				4em 1em #342A14,
+				8em 2em #342A14,
+				9em 3em #342A14,
+				9em 4em #342A14,
+				9em 5em #342A14,
+				9em 6em #342A14,
+				9em 7em #342A14,
+				8em 8em #342A14,
+				7em 7em #342A14,
+				7em 6em #342A14,
+				7em 5em #342A14,
+				7em 4em #342A14,
+				7em 0 #4C3214,
+				5em 2em #4C3214,
+				4em 3em #4C3214,
+				3em 4em #4C3214,
+				2em 5em #4C3214,
+				1em 6em #4C3214,
+				0 7em #4C3214,
+				-1em 8em #4C3214,
+				-2em 9em #4C3214,
+				-3em 10em #4C3214,
+				8em 1em #2C1A0C,
+				6em 3em #2C1A0C,
+				5em 4em #2C1A0C,
+				4em 5em #2C1A0C,
+				3em 6em #2C1A0C,
+				2em 7em #2C1A0C,
+				1em 8em #2C1A0C,
+				0 9em #2C1A0C,
+				-1em 10em #2C1A0C,
+				-2em 11em #2C1A0C,
+				3em 0 #6C521C,
+				4em 0 #6C521C,
+				5em 1em #6C521C,
+				6em 1em #6C521C,
+				7em 2em #6C521C,
+				7em 3em #6C521C,
+				8em 4em #6C521C,
+				8em 5em #6C521C,
+				2em 0 #745A24,
+				5em 0 #745A24,
+				6em 2em #745A24,
+				8em 3em #745A24,
+				8em 6em #745A24,
+				8em 0 #6C4A1C,
+				5em 3em #6C4A1C,
+				3em 5em #6C4A1C,
+				1em 7em #6C4A1C,
+				-1em 9em #6C4A1C,
+				-3em 11em #6C4A1C,
+				1em 0 #846224,
+				7em 1em #846224,
+				8em 7em #846224,
+				4em 4em #846224,
+				2em 6em #846224,
+				0 8em #846224,
+				-2em 10em #846224;
 }
