@@ -1,4 +1,4 @@
-body { background: #ecf0f1; }
+body { background: #ecf0f1; text-align: center; }
 
 /*
   ========================================
@@ -16,6 +16,9 @@ body { background: #ecf0f1; }
 	/* Size
 	---------------------------------------------- */
 	font-size: 15px;	
+}
+.item + .item {
+	margin-left: 5em;
 }
 .item:before {
 	content: '';
