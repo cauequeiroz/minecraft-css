@@ -1,5 +1,31 @@
-body {
-	background: #ecf0f1;
+body { background: #ecf0f1; }
+
+/*
+  ========================================
+  Item
+  ========================================
+*/
+.item {
+	width: 20em;
+	height: 20em;
+	display: inline-block;
+	position: relative;
+	animation: flying 2s infinite;
+	animation-timing-function: ease;
+
+	/* Size
+	---------------------------------------------- */
+	font-size: 15px;	
+}
+.item:before {
+	content: '';
+	position: absolute;
+	top: 22em;
+	left: 0;
+	width: 20em;
+	height: 2em;
+	animation: shadow 2s infinite;
+	background: radial-gradient(rgba(0,0,0,.2), #ecf0f1 25%);
 }
 
 /*
@@ -23,27 +49,6 @@ body {
   Sword
   ========================================
 */
-.sword {
-	width: 20em;
-	height: 20em;
-	position: relative;
-	animation: flying 2s infinite;
-	animation-timing-function: ease;
-
-	/* Size
-	---------------------------------------------- */
-	font-size: 15px;
-}
-.sword:before {
-	content: '';
-	position: absolute;
-	top: 22em;
-	left: 0;
-	width: 20em;
-	height: 2em;
-	animation: shadow 2s infinite;
-	background: radial-gradient(rgba(0,0,0,.2), #ecf0f1 25%);	
-}
 .sword:after {
 	content: '';
 	position: absolute;
@@ -142,27 +147,6 @@ body {
   Axe
   ========================================
 */
-.axe {
-	width: 20em;
-	height: 20em;
-	position: relative;
-	animation: flying 2s infinite;
-	animation-timing-function: ease;
-
-	/* Size
-	---------------------------------------------- */
-	font-size: 15px;
-}
-.axe:before {
-	content: '';
-	position: absolute;
-	top: 22em;
-	left: 0;
-	width: 20em;
-	height: 2em;
-	animation: shadow 2s infinite;
-	background: radial-gradient(rgba(0,0,0,.2), #ecf0f1 25%);	
-}
 .axe:after {
 	content: '';
 	position: absolute;
